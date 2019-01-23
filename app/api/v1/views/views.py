@@ -5,6 +5,11 @@ destinations = ['Nairobi', 'Nakuru', 'Mombasa', 'Kisimu', 'Kisii', 'Thika', 'Mer
 pickup_locations = ['Nairobi', 'Nakuru', 'Mombasa', 'Kisimu', 'Kisii', 'Thika', 'Meru']
 
 
+class HomePage():
+    def home(self):
+        return "Welcome to Sendit"
+
+
 class PostParcel(Resource, ParcelModel):
     def __init__(self):
         self.db = ParcelModel()
@@ -46,3 +51,6 @@ class GetUserOrders(Resource, ParcelModel):
     def get(self, sender_email):
         user_orders = self.get_orders_by_specific_user(sender_email)
         return user_orders
+
+
+
