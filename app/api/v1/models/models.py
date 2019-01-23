@@ -103,3 +103,7 @@ class ParcelModel():
                 return "order has been cancelled"
             parcel[0]["order_status"] = "Cancelled"
             return "order has been cancelled"
+
+class Homey():
+    def index(self):
+        return "welcome home", 200

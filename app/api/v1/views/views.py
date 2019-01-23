@@ -1,13 +1,13 @@
 from flask import request
 from flask_restful import Resource
-from ..models.models import ParcelModel
+from ..models.models import ParcelModel, Homey
 destinations = ['Nairobi', 'Nakuru', 'Mombasa', 'Kisimu', 'Kisii', 'Thika', 'Meru']
 pickup_locations = ['Nairobi', 'Nakuru', 'Mombasa', 'Kisimu', 'Kisii', 'Thika', 'Meru']
 
 
-class HomePage():
-    def home(self):
-        return "Welcome to Sendit"
+class HomePage(Resource, Homey):
+    def get(self):
+        return "Welcome To Sendit"
 
 
 class PostParcel(Resource, ParcelModel):
