@@ -41,4 +41,4 @@ SendIT is a courier service that helps users deliver parcels to different destin
 | GET /api/v1/parcels                     | Retrieve all parcel delivery                   |
 | PUT /api/v1/parcels/<int:parcel_id>/    | Cancel a specific parcel delivery              |
 | GET /api/v1/parcels/<int:parcel_id>     | Retrieve a specific parcel delivery            |
-| GET /api/v1/parcels/<str:sender_email   | Fetch all delivery orders for a user           |
+| GET /api/v1/parcels/<str:sender_email>  | Fetch all delivery orders for a user           |
