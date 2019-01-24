@@ -1,4 +1,5 @@
 # Sendit2
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fd692c159e514718a1b30ee69a28fd40)](https://app.codacy.com/app/paulzay/Sendit2?utm_source=github.com&utm_medium=referral&utm_content=paulzay/Sendit2&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/paulzay/Sendit2.svg?branch=master)](https://travis-ci.org/paulzay/Sendit2)
 
 [![Coverage Status](https://coveralls.io/repos/github/paulzay/Sendit2/badge.svg?branch=master)](https://coveralls.io/github/paulzay/Sendit2?branch=master)
