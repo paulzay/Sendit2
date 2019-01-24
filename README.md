@@ -32,7 +32,7 @@ SendIT is a courier service that helps users deliver parcels to different destin
 	
     .Test using Nosetests
 	
-    .Test in Heroku here [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://zay-sendit.herokuapp.com/api/v1/)
+    .Test in Heroku here https://zay-sendit.herokuapp.com/api/v1/
     ## Use the following endpoints to perform the specified tasks
 		 
 | 	Endpoint                          | Functionality                                                  
