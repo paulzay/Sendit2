@@ -2,4 +2,5 @@ env/
 .vscode/
 __pycache__
 .idea/
-.env
+.venv
+.pyc
