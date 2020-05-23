@@ -31,7 +31,8 @@ From your command line, first clone the project:
 1. Clone the repo or Download zip file from the right hand corner
 
    > `https://github.com/paulzay/Sendit2/`
-
+   
+2. cd into the project folder.
 
 ## First install
 
@@ -46,10 +47,6 @@ From your command line, first clone the project:
 3. install vitual environment
 
    > `pip3 install virtualenv`
-
-4. checkout develop branch
-
-   > `git checkout develop`
 
 5. create the virtual environment
 
@@ -97,3 +94,4 @@ Give a ⭐️ if you like this project!
 - Andela
 
 ## 📝 License
+ - MIT
