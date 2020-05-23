@@ -34,7 +34,7 @@ class TestParcels(unittest.TestCase):
     def test_get_all_parcels(self):
         response = self.client.get('/api/v1/parcels', data=json.dumps(self.data),
                                    content_type="application/json")
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 500)
 
     def test_get_single_parcel(self):
         response = self.client.get("/api/v1/parcels/1", data=json.dumps(self.data),
