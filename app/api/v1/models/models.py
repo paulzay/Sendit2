@@ -71,7 +71,7 @@ class ParcelModel():
 
     def get_all_orders(self):
         """Return all orders"""
-        return self.db, 200
+        return parcels, 200
 
     def get_specific_order(self, parcel_id):
         """Return a specific order"""
