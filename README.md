@@ -14,27 +14,63 @@ SendIT is a courier service that helps users deliver parcels to different destin
 
 	.Git
 
+	.Nosetest
 
-## Installing
+	.Flask
 
-   .Clone or download the project from git either via terminal using the commands git clone :https://github.com/PAULZAY/Sendit2.git or Download zip file from the right hand corner
+	.Flask-restful
 
-    .Ensure Python 3.6 is installed
-	
-    .To test the API locally, set up a virtual environment in the root folder 
-    - virtualenv env
-	
-    .Activate the virtual environment through; source env/bin/activate via the terminal
-	
-    .Run the export FLASK_APP=run.py command via the terminal
-	
-    .Install dependencies through pip install -r requirements.txt
-	
-    .Test using Nosetests
-	
-    .Test in Heroku here https://zay-sendit.herokuapp.com/api/v1/
-    ## Use the following endpoints to perform the specified tasks
-		 
+# Getting Started 🚀
+
+These instructions will get you a copy of the project up and running on your local machine.
+
+## How To Use 🔧
+
+From your command line, first clone the project:
+
+1. Clone the repo or Download zip file from the right hand corner
+
+   > `https://github.com/paulzay/Sendit2/`
+
+
+## First install
+
+1. python3
+
+   > `sudo apt-get install python3`
+
+2. install python3 pip
+
+   > `sudo apt-get install python3-pip`
+
+3. install vitual environment
+
+   > `pip3 install virtualenv`
+
+4. checkout develop branch
+
+   > `git checkout develop`
+
+5. create the virtual environment
+
+   > `virtualenv env`
+
+6. Activate the vitualenv in the parent directory of your **"env"**
+
+   > `source env/bin/activate`
+
+7. Install requirement
+
+   > `pip install -r requirements.txt`
+
+8. Run the app
+
+   > `flask run`
+
+9. Testing
+
+   > `nosetests`
+
 | 	Endpoint                          | Functionality                                                  
 | ----------------------------------------| -----------------------------------------------|
 | POST /api/v1/parcels                    | Create a parcel delivery                       |
@@ -42,3 +78,22 @@ SendIT is a courier service that helps users deliver parcels to different destin
 | PUT /api/v1/parcels/<int:parcel_id>/    | Cancel a specific parcel delivery              |
 | GET /api/v1/parcels/<int:parcel_id>     | Retrieve a specific parcel delivery            |
 | GET /api/v1/parcels/<str:sender_email>  | Fetch all delivery orders for a user           |
+
+
+## CONTRIBUTOR
+
+👤 **Paul Ogolla**
+
+- [Github](https://github.com/paulzay)
+- <img width="40" valign="middle" src="https://storage.googleapis.com/gregsramblings-downloads/Twitter_Logo_Blue.png">[Twitter](https://twitter.com/_paulzay_)
+- [Linkedin](https://linkedin.com/in/paulogolla)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Andela
+
+## 📝 License
